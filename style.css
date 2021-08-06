@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-image: url(./images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -24,43 +24,88 @@ body {
 }
 
 .car {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   width: 100%;
-  height: 100%;
   padding: 0;
+  margin-bottom: 120px;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 h2 {
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   top: 0;
-  margin: 0px;
+  margin: 10px;
   height: min-content;
-  width: 500px;
+  display: block;
+  width: 100%;
+  
 }
 
 .content {
   width: 1000px;
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   /* overflow-y: scroll; */
+  margin-left: 50px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  width: 700px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-  background-color: goldenrod;
+  background-color: gold;
   color: black;
   font-size: 20px;
   padding: 10px 15px;
-  text-decoration: none;t;
-  width: fit-content;
-  height: fit-content;
+  text-decoration: none;
+  border-radius: 5%;
 }
 
+a:hover {
+  background-color: goldenrod;
+}
 
+img {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+.mySlides {
+  display:none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+  margin-bottom: 0px;
+  color: gold;
+}
+
+p {
+  margin-top: 0;
+}
 
