@@ -1,6 +1,7 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    font-size: large;
 }
 
 body {
@@ -29,7 +30,9 @@ body {
   width: 100%;
   padding: 0;
   margin-bottom: 120px;
-  background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -39,14 +42,12 @@ h2 {
   height: min-content;
   display: block;
   width: 100%;
-  
+  font-size: xx-large;
 }
 
 .content {
   width: 1000px;
-  /* border: 1px dotted red; */
-  /* overflow-y: scroll; */
-  margin-left: 50px;
+  margin: 50px;
 }
 
 .wrapper {
@@ -78,9 +79,6 @@ img {
   margin: 20px;
 }
 
-.mySlides {
-  display:none;
-}
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -108,4 +106,5 @@ h3 {
 p {
   margin-top: 0;
 }
+
 
