@@ -6,19 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parallax Scrolling</title>
+    <link rel="icon" href="./images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img id="logo"
+                src="https://www.lamborghini.com/sites/it-en/files/themes/custom/lambo_facelift_2019/images/logo.png"
+                alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link bg-dark" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Models
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item bg-dark text-light" href="#huracan">Huracan</a></li>
+                            <li><a class="dropdown-item bg-dark text-light" href="#aventador">Aventador</a></li>
+                            <li><a class="dropdown-item bg-dark text-light" href="#urus">Urus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
     <div class="container">
-        <h2>Lamborghini Huracán EVO Spyder</h2>
+        <h2 id="huracan">Lamborghini Huracán EVO Spyder</h2>
         <div class="car">
             <div class="wrapper">
-                <div class="slideContainer">
-                    <img class="huracanSlide" src="./images/huracan/lamborghini-huracan-evo-exterior.jpg"
-                        style="width:100%">
-                    <img class="huracanSlide" src="./images/huracan/lamborghini-huracan-evo-interior.jpg"
-                        style="width:100%">
+                <div>
+                    <img src="./images/huracan/lamborghini-huracan-evo-exterior.jpg" style="width:100%">
+                    <img src="./images/huracan/lamborghini-huracan-evo-interior.jpg" style="width:100%">
                 </div>
 
                 <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-evo-spyder"
@@ -27,7 +56,8 @@
             <div class="content">
                 <section>
                     <h3>Overview</h3>
-                    <p>The Huracán EVO Spyder lets one experience the thrill of extreme driving. Colors, smells and
+                    <p>The <strong>Huracán EVO Spyder</strong> lets one experience the thrill of extreme driving.
+                        Colors, smells and
                         sounds
                         meld with a seductive design and ultra-light materials.
                         The 640 hp naturally aspirated V10 engine roars with authority, as the exhaust announces the
@@ -64,12 +94,12 @@
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Printable_Flag_of_Italy.svg/2560px-Printable_Flag_of_Italy.svg.png"
             alt="">
 
-        <h2>Lamborghini Aventador SVJ</h2>
+        <h2 id="aventador">Lamborghini Aventador SVJ</h2>
         <div class="car">
             <div class="wrapper">
-                <div class="slideContainer">
-                    <img class="huracanSlide" src="./images/aventador/aventador-svj-exterior.webp" style="width:100%">
-                    <img class="huracanSlide" src="./images/aventador/aventador-svj-interior.jpg" style="width:100%">
+                <div>
+                    <img src="./images/aventador/aventador-svj-exterior.webp" style="width:100%">
+                    <img src="./images/aventador/aventador-svj-interior.jpg" style="width:100%">
                 </div>
 
                 <a href="https://www.lamborghini.com/en-en/models/aventador/aventador-svj" target="_blank">Details</a>
@@ -78,7 +108,8 @@
                 <section>
                     <h3>Overview</h3>
                     <p>
-                        Lamborghini created the Aventador SVJ to embrace challenges head-on, combining cutting-edge
+                        Lamborghini created the <strong>Aventador SVJ</strong> to embrace challenges head-on, combining
+                        cutting-edge
                         technology with extraordinary design, while always refusing to compromise. In a future driven by
                         technology, it’s easy to lose the genuine thrill of driving. But in the future shaped by
                         Lamborghini, this won’t be left behind, because there will always be a driver behind the wheel.
@@ -113,12 +144,12 @@
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Printable_Flag_of_Italy.svg/2560px-Printable_Flag_of_Italy.svg.png"
             alt="">
 
-        <h2>Lamborghini Urus</h2>
+        <h2 id="urus">Lamborghini Urus</h2>
         <div class="car">
             <div class="wrapper">
-                <div class="slideContainer">
-                    <img class="huracanSlide" src="./images/urus/urus-exterior.jpg" style="width:100%">
-                    <img class="huracanSlide" src="./images/urus/urus-interior.jpg" style="width:100%">
+                <div>
+                    <img src="./images/urus/urus-exterior.jpg" style="width:100%">
+                    <img src="./images/urus/urus-interior.jpg" style="width:100%">
                 </div>
 
                 <a href="https://www.lamborghini.com/en-en/models/urus/urus" target="_blank">Details</a>
@@ -126,9 +157,10 @@
             <div class="content">
                 <section>
                     <h3>Overview</h3>
-                    <p>The soul of a super sports car and the functionality of an SUV: Lamborghini Urus is the first
-                        Super
-                        Sport Utility Vehicle in the world. With extreme proportions, breathtaking design, extraordinary
+                    <p>The soul of a super sports car and the functionality of an SUV: <strong>Lamborghini Urus</strong>
+                        is the first
+                        Super Sport Utility Vehicle in the world. With extreme proportions, breathtaking design,
+                        extraordinary
                         driving dynamics and heart-pounding performance, Urus represents freedom in its quintessential
                         state. You can experience any road, from track to the sand, ice, gravel or rocks, thus unlocking
                         any
@@ -161,7 +193,14 @@
             </div>
         </div>
     </div>
+
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
